@@ -1,0 +1,13 @@
+# g++
+# Build your C++ projects with g++ and GNU Make.
+# https://aka.ms/yaml
+
+pool:
+  name: Azure Pipelines
+  vmImage: ubuntu-18.04
+
+#variables:
+#  system.debug: 'true'
+
+steps:
+    - script: 'ls -lah'
