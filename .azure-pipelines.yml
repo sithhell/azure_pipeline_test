@@ -3,8 +3,7 @@
 # https://aka.ms/yaml
 
 pool:
-  name: Azure Pipelines
-  vmImage: docker_x86_test
+  name: docker_x86_test
 
 # specific branch build with batching
 trigger:
