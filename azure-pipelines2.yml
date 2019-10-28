@@ -18,4 +18,5 @@ steps:
     env | sort
     echo $0
     cat $0
+    echo $XXXXX
   displayName: 'Run a multi-line script'
