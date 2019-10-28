@@ -28,5 +28,4 @@ pr:
 
 steps:
     - script: |
-        g++ --version
-        free -m
+        env
