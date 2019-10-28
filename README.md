@@ -1,1 +1,2 @@
+[![Board Status](https://dev.azure.com/STEllAR-GROUP/f5eb926e-197d-4f07-b5ee-8d1dc1000695/c4cf4dd5-3214-48cb-84fe-1821f0e2c3f6/_apis/work/boardbadge/6c459705-2b57-4a5c-a4b1-7beb598fdb4d)](https://dev.azure.com/STEllAR-GROUP/f5eb926e-197d-4f07-b5ee-8d1dc1000695/_boards/board/t/c4cf4dd5-3214-48cb-84fe-1821f0e2c3f6/Microsoft.RequirementCategory)
 # azure_pipeline_test
