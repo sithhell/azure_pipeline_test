@@ -22,4 +22,6 @@ steps:
     /home/stellarci/myagent/source_docker_machine
     export TEST=$(/home/stellarci/myagent/source_docker_machine)
     echo $TEST
+    export TEST=`/home/stellarci/myagent/source_docker_machine`
+    echo $TEST
   displayName: 'Run a multi-line script'
