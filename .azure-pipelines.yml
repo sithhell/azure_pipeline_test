@@ -3,7 +3,7 @@
 # https://aka.ms/yaml
 
 pool:
-  name: docker_x86_test
+  name: Default
 
 # specific branch build with batching
 trigger:
