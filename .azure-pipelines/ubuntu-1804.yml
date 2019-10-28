@@ -28,5 +28,5 @@ pr:
 
 steps:
     - script: |
-      g++ --version
-      free -m
+        g++ --version
+        free -m
