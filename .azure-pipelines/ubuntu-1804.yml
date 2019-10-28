@@ -11,12 +11,11 @@ trigger:
   batch: true
   branches:
     include:
-    - master
-
-paths:
-    exclude:
-        - docs/*
-        - *.md
+        - master
+  paths:
+      exclude:
+          - docs/*
+          - *.md
 
 pr:
     autoCancel: true
