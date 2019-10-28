@@ -2,8 +2,7 @@
 # Build your C++ projects with g++ and GNU Make.
 # https://aka.ms/yaml
 
-pool:
-  name: Default
+pool: Default
 
 # specific branch build with batching
 trigger:
