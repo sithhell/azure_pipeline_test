@@ -19,4 +19,7 @@ steps:
     echo $0
     cat $0
     echo $XXXXX
+    /home/stellarci/myagent/source_docker_machine
+    export TEST=$(/home/stellarci/myagent/source_docker_machine)
+    echo $TEST
   displayName: 'Run a multi-line script'
