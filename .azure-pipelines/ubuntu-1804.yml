@@ -27,6 +27,6 @@ pr:
 #  system.debug: 'true'
 
 steps:
-    - script:
-      'cat /proc/cpuinfo'
-      'g++ --version'
+    - script: |
+      g++ --version
+      free -m
