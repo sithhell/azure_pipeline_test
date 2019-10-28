@@ -4,7 +4,7 @@
 
 pool:
   name: Azure Pipelines
-  vmImage: ubuntu-18.04
+  vmImage: docker_x86_test
 
 # specific branch build with batching
 trigger:
