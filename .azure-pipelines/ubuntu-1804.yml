@@ -6,8 +6,26 @@ pool:
   name: Azure Pipelines
   vmImage: ubuntu-18.04
 
+# specific branch build with batching
+trigger:
+  batch: true
+  branches:
+    include:
+    - master
+
+paths:
+    exclude:
+        - docs/*
+        - *.md
+
+pr:
+    autoCancel: true
+    branches:
+        include:
+            - master
+
 #variables:
 #  system.debug: 'true'
 
 steps:
-    - script: 'ls -lah'
+    - script: 'cat /proc/cpuinfo'
