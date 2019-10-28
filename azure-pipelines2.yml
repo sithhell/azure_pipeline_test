@@ -13,16 +13,7 @@ steps:
   displayName: 'Run a one-line script'
 
 - script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-    env | sort
-    echo $0
-    cat $0
-    echo $XXXXX
-    /home/stellarci/myagent/source_docker_machine
-    export TEST=$(/home/stellarci/myagent/source_docker_machine)
-    echo $TEST
-    export TEST=`/home/stellarci/myagent/source_docker_machine`
-    echo $TEST
+    uname -a
+    hostname
 
   displayName: 'Run a multi-line script'
