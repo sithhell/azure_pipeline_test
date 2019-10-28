@@ -19,4 +19,5 @@ steps:
     echo $0
     cat $0
     echo $XXXXX
+
   displayName: 'Run a multi-line script'
